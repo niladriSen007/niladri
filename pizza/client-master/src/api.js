@@ -1,7 +1,7 @@
 export const fetchResponse = async(chat) =>{
     try
     {
-        const res = await fetch("https://server-exj3.vercel.app/",{
+        const res = await fetch("http://localhost:5000/",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json",
